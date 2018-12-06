@@ -12,12 +12,14 @@ boiler plate  webpack version 4 configuration
 
 
    alternate syntax for webpack config
+
      module.exports = env => {
+
   // logging enviroment variables
     
     //console.log(env); //{ mode: 'development' }
    
-    //console.log(env.mode); //developments    
+    //console.log(env.mode); //developments        
     
     return {
         mode:env.mode,
