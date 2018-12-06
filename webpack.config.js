@@ -1,5 +1,8 @@
-module.exports = () => ({
-    output:{
-        filename:"bundle.js"
+module.exports = env => {
+    console.log(env);
+    return {
+        output:{
+         filename:"bundle.js"
     }
-});
+  };
+};
