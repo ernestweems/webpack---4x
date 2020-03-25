@@ -22,10 +22,9 @@
     "url": "https://github.com/ernestweems/webpack---4x/issues"
   },
   "homepage": "https://github.com/ernestweems/webpack---4x#readme",
-  "devDependencies": {
-    "webpack": "^4.26.0"
-  },
+  "devDependencies": {},
   "dependencies": {
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }
 }
