@@ -10,7 +10,9 @@
     "watch": "npm run webpack --  --env.mode development --watch",
     "prod": "npm run webpack --  --env.mode production",
     "dev:debug": "npm run debug -- --env.mode development",
-    "prod:debug": "npm run debug -- --env.mode production"
+    "prod:debug": "npm run debug -- --env.mode production",
+    "dev-server": "webpack-dev-server --env.mode development --watch",
+    "prod-server": "webpack-dev-server --env.mode production"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,10 @@
     "url": "https://github.com/ernestweems/webpack---4x/issues"
   },
   "homepage": "https://github.com/ernestweems/webpack---4x#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
   "dependencies": {
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
